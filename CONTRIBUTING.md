@@ -132,7 +132,8 @@ The requirements are:
 - **no author**: Please do not add your name as an author to the file. This project is a team effort, and your contribution is recorded on GitHub.
 - **function docs**: Every function must be documented with a comment block above it, describing the purpose (`@brief`), parameters (`@param`) and return value (`@return`).
 - **camel case**: Variables and functions must be named using camel case. Constants and macros are completely uppercase, so they receive snake case.
-- **indentation**: Indentation uses 4 spaces.<br>
+- **indentation**: Indentation uses 4 spaces.
+
 The recommendations are:
 - **notes**: Functions should be documented with notes (`@note`), where the implementation has some non-obvious implications to the user.
 - **file docs**: Files should have a comment block at the top, describing the purpose of the file in detail.

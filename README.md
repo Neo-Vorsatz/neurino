@@ -20,11 +20,11 @@ Neural networks, and related components, are packaged into "ninos". A "neural ni
 - input size (the expected dimensions of the input matrix)
 - output size
 - number of layers
-- parameter size<br>
+- parameter size
+
 Ninos can also be calls to custom C functions, which we call "functional ninos".
 
-Ninos can be combined
-
+Ninos can be combined into a Neurino using the Neurino Markup Language (NML). The NML compiler converts a `.nml` file into a `.bin` which contains the specifications of the model architecture as well as all the parameters.
 
 TODO: Elaborate further
 
